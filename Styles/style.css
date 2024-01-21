@@ -13,24 +13,52 @@
 }
 
 #logo img{
-    margin: 7px 12px;
-    height: 55px;
-    width: 65px;
+    margin: 0px 20px;
+    height: 38px;
+    width: 50px;
+    border-radius: 1.5rem;
+}
+
+.navbar{
+    position: relative;
 }
 
 .navbar ul{
     display: flex;
 }
 
+.navbar::before{
+     content: "";
+     background-color: rgb(12, 12, 12);
+     position: absolute;
+     height: 100%;
+     width: 100%;
+     z-index: -1; 
+     opacity: 0.5;   
+}
+
 .navbar ul li{
-    /* color: white; */
     list-style: none;
     font-size: 1.3rem;
 }
 
 .navbar ul li a{
+    color: bisque;
     display: block;
     padding: 6px 20px;
     border-radius: 15px;
     text-decoration: none;
+}
+
+.navbar ul li a:hover{
+    color: black;
+    background-color: white;
+}
+
+#main{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 200px;
+    justify-content: center;
+    align-items: center;
 }
