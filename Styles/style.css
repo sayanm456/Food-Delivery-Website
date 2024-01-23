@@ -25,6 +25,7 @@
 
 .navbar ul{
     display: flex;
+    font-family: 'Baloo Bhai 2', sans-serif;
 }
 
 .navbar::before{
@@ -71,21 +72,34 @@
     height: 100%;
     width: 100%;
     z-index: -1;
-    opacity: 0.79;
+    opacity: 0.95;
 }
 
 #main h1{
     color: whitesmoke;
     text-align: center;
+    font-family: 'Bree Serif', serif;
 }
 
 #main p{
     color: whitesmoke;
     text-align: center;
     font-size: 1.2rem;
+    font-family: 'Bree Serif', serif;
 }
 
 .primary{
     font-size: 2.5rem;
     padding: 15px;
+}
+
+.btn{
+    padding: 6px 22px;
+    border: 2px solid white;
+    background-color: aqua;
+    margin: 20px;
+    font-size: 1.2rem;
+    border-radius: 15px;
+    cursor: pointer;
+
 }
