@@ -60,7 +60,7 @@
     display: flex;
     flex-direction: column;
     padding: 5px 200px;
-    height: 580px;
+    height: 400px;
     justify-content: center;
     align-items: center;
 }
@@ -88,6 +88,10 @@
     font-family: 'Bree Serif', serif;
 }
 
+.services-container{
+    margin: 120px 0;
+}
+
 #services{
     margin: 32px;
     display: flex;
@@ -95,6 +99,7 @@
 
 #services .box{
     border: 2px solid red;
+    margin-right: 1.9rem;
 }
 
 #services .box img{
@@ -105,7 +110,7 @@
 
 .primary{
     font-size: 2.5rem;
-    padding: 15px;
+    padding: 10px;
 }
 
 .btn{
