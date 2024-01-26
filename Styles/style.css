@@ -3,9 +3,15 @@
     padding: 0;
 }
 
+:root{
+    --navbar-height: 45px;
+}
+
 .navbar{
     display: flex;
     align-items: center;
+    position: relative;
+    top: 0;
 }
 
 #logo{
@@ -19,10 +25,6 @@
     border-radius: 1.5rem;
 }
 
-.navbar{
-    position: relative;
-}
-
 .navbar ul{
     display: flex;
     font-family: 'Baloo Bhai 2', sans-serif;
@@ -32,6 +34,8 @@
      content: "";
      background-color: rgb(12, 12, 12);
      position: absolute;
+     top: 0;
+     left: 0;
      height: 100%;
      width: 100%;
      z-index: -1; 
@@ -59,8 +63,8 @@
 #main{
     display: flex;
     flex-direction: column;
-    padding: 5px 200px;
-    height: 400px;
+    padding: 3px 180px;
+    height: 247px;
     justify-content: center;
     align-items: center;
 }
@@ -69,6 +73,8 @@
     content: "";
     position: absolute;
     background: url(../Images/bg.jpg) no-repeat center center/cover;
+    top: 0;
+    left: 0;
     height: 100%;
     width: 100%;
     z-index: -1;
@@ -88,29 +94,29 @@
     font-family: 'Bree Serif', serif;
 }
 
-.services-container{
-    margin: 120px 0;
-}
-
 #services{
-    margin: 32px;
+    margin: 40px;
     display: flex;
 }
 
 #services .box{
     border: 2px solid red;
-    margin-right: 1.9rem;
+    border-radius: 1rem;
+    padding: 15px;
+    margin: 10px 12px;
+    background-color: rgb(238, 233, 233);
 }
 
 #services .box img{
-    height: 200px;
+    height: 190px;
     margin: auto;
     display: block;
 }
 
 .primary{
     font-size: 2.5rem;
-    padding: 10px;
+    margin-top: 17rem;
+    font-family: 'Bree Serif', serif;
 }
 
 .btn{
@@ -126,6 +132,7 @@
 .secondary{
     font-size: 2.0rem;
     padding: 15px;
+    font-family: 'Bree Serif', serif;
 }
 
 .btn{
