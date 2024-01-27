@@ -113,6 +113,10 @@
     display: block;
 }
 
+#services .box p{
+    font-family: 'Bree Serif', serif;
+}
+
 .primary{
     font-size: 2.5rem;
     margin-top: 17rem;
@@ -130,7 +134,7 @@
 }
 
 .secondary{
-    font-size: 2.0rem;
+    font-size: 1.6rem;
     padding: 15px;
     font-family: 'Bree Serif', serif;
 }
