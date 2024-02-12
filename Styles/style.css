@@ -111,6 +111,7 @@
     height: 190px;
     margin: auto;
     display: block;
+    background-color: red;
 }
 
 #services .box p{
