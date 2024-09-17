@@ -149,6 +149,9 @@
     cursor: pointer;
 
 }
+.btn a{
+    text-decoration: none;
+}
 
 .center{
     text-align: center;
