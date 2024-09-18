@@ -1,14 +1,18 @@
 "use client";
 
 const len = document.body.getElementsByClassName("box").length
-const btn = document.body.getElementsByClassName("btn")
+const btn = document.getElementsByClassName("btn")
 
 document.body.querySelectorAll(".box").forEach(e=>{
-   e.style.borderColor = "green"
-   e.style.backgroundColor = "lightblue"
+   e.style.borderColor = "green";
+   e.style.boxShadow = '10px 10px 5px #888888'
+   e.style.backgroundColor = "lightblue";
 })
 
 
 btn[0].addEventListener("click", function() {
-    alert("Clicked!")
+    btn[0].onclick = function() {
+        location.href = "/Templates/orderpage.html";
+
+    }
 })
