@@ -123,7 +123,7 @@
     font-family: 'Bree Serif', serif;
 }
 
-.btn{
+/* .btn{
     padding: 6px 22px;
     border: 2px solid white;
     background-color: aqua;
@@ -131,7 +131,7 @@
     font-size: 1.2rem;
     border-radius: 15px;
     cursor: pointer;
-}
+} */
 
 .secondary{
     font-size: 1.6rem;
@@ -151,6 +151,11 @@
 }
 .btn a{
     text-decoration: none;
+}
+
+.btn:hover{
+    color: rgba(2, 195, 243, 0.959);
+    background-color: rgba(7, 7, 7, 0.911);
 }
 
 .center{
