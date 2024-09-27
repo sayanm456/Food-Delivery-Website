@@ -6,7 +6,6 @@
 :root{
     --navbar-height: 45px;
 }
-
 .navbar{
     display: flex;
     align-items: center;
@@ -94,6 +93,15 @@
     font-family: 'Bree Serif', serif;
 }
 
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 960px;
+    padding: 10px;
+}
+
 #services{
     margin: 40px;
     display: flex;
@@ -122,16 +130,6 @@
     margin-top: 17rem;
     font-family: 'Bree Serif', serif;
 }
-
-/* .btn{
-    padding: 6px 22px;
-    border: 2px solid white;
-    background-color: aqua;
-    margin: 20px;
-    font-size: 1.2rem;
-    border-radius: 15px;
-    cursor: pointer;
-} */
 
 .secondary{
     font-size: 1.6rem;

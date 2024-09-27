@@ -1,6 +1,5 @@
-"use client";
+"use strict";
 
-const len = document.body.getElementsByClassName("box").length
 const btn = document.getElementsByClassName("btn")
 
 document.body.querySelectorAll(".box").forEach(e=>{
@@ -11,8 +10,9 @@ document.body.querySelectorAll(".box").forEach(e=>{
 
 
 btn[0].addEventListener("click", function() {
-    btn[0].onclick = function() {
-        location.href = "/Templates/orderpage.html";
-
+    btn[0].onclick = function(interval) {
+        setInterval(() => {
+            location.href = "../Templates/orderpage.html";
+        }, interval);
     }
 })
